@@ -1,0 +1,105 @@
+. Command line: phyml -i scn4a_genes.phy -b 100 
+
+
+
+
+
+  ////////////////////////////////////.\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\
+  \\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\.//////////////////////////////////////////
+
+        . Sequence filename:                             scn4a_genes.phy
+        . Data type:                                     dna
+        . Alphabet size:                                 4
+        . Sequence format:                               interleaved
+        . Number of data sets:                           1
+        . Nb of bootstrapped data sets:                  100
+        . Compute approximate likelihood ratio test:     no
+        . Model name:                                    HKY85
+        . Ts/tv ratio:                                   estimated
+        . Proportion of invariable sites:                0.000000
+        . RAS model:                                     discrete Gamma
+        . Number of subst. rate catgs:                   4
+        . Gamma distribution parameter:                  estimated
+        . 'Middle' of each rate class:                   mean
+        . Nucleotide equilibrium frequencies:            empirical
+        . Optimise tree topology:                        yes
+        . Starting tree:                                 BioNJ
+        . Add random input tree:                         no
+        . Optimise branch lengths:                       yes
+        . Minimum length of an edge:                     1e-08
+        . Optimise substitution model parameters:        yes
+        . Run ID:                                        none
+        . Random seed:                                   1756428808
+        . Subtree patterns aliasing:                     no
+        . Version:                                       3.3.20220408
+        . Byte alignment:                                16
+        . AVX enabled:                                   no
+        . SSE enabled:                                   yes
+
+  ////////////////////////////////////.\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\
+  \\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\.//////////////////////////////////////////
+
+
+
+. 3097 patterns found (out of a total of 6219 sites). 
+
+. 2596 sites without polymorphism (41.74%).
+
+
+. Computing pairwise distances...
+
+. Building BioNJ tree...
+
+. Note: taxon 'Dolphin_sc' is a duplicate of taxon 'Ttu_scn4a'.
+
+. This analysis requires at least 21 MB of memory space.
+
+
+. Score of initial tree: -49113.13
+
+. Starting first round of SPRs...
+
+               1s |   1 | lnL=    -48327.9 | depth=    2/   40 | improvements=  15 | delta_lnL=  178.5/ 1000.0  
+
+. Second round of optimization...
+
+               2s |   2 | lnL=    -48423.3 | depth=    1/   36 | improvements=  11 | delta_lnL=    0.0/ 1000.0  
+               2s |   3 | lnL=    -48538.9 | depth=    2/   20 | improvements=   9 | delta_lnL=  373.4/ 1000.0  
+               3s |   4 | lnL=    -48385.2 | depth=    1/   16 | improvements=   9 | delta_lnL=    0.0/ 1000.0  
+               3s |   5 | lnL=    -48583.2 | depth=    3/   12 | improvements=  10 | delta_lnL=  123.1/ 1000.0  
+               4s |   6 | lnL=    -48524.5 | depth=    4/    9 | improvements=  19 | delta_lnL=  434.1/  746.8  
+               4s |   7 | lnL=    -48473.0 | depth=    1/    8 | improvements=  12 | delta_lnL=    0.0/  746.8  
+               5s |   8 | lnL=    -48371.9 | depth=    1/    6 | improvements=  10 | delta_lnL=    0.0/  746.8  
+               5s |   9 | lnL=    -48346.1 | depth=    2/    5 | improvements=   7 | delta_lnL=  108.1/  746.8  
+               6s |  10 | lnL=    -48350.5 | depth=    2/    6 | improvements=   9 | delta_lnL=   46.4/  868.2  
+               7s |  11 | lnL=    -48824.8 | depth=    6/    6 | improvements=  14 | delta_lnL=  362.0/  868.2  
+
+. Third round of optimization...
+
+               9s |  12 | lnL=    -48298.3 | depth=    3/   10 | improvements=  14 | delta_lnL=  112.7/  868.2 | triple moves=   5  
+              10s |  13 | lnL=    -48283.0 | depth=    1/    8 | improvements=   1 | delta_lnL=    0.0/  100.0 | triple moves=   5  
+              13s |  14 | lnL=    -48281.2 | depth=    0/    6 | improvements=   0 | delta_lnL=    0.0/  100.0 | triple moves=   5  
+
+. Final optimisation steps...
+
+
+. Log likelihood of the current tree: -48274.754033404380606953055.
+
+. Launch bootstrap analysis on the most likely tree...
+
+. Non parametric bootstrap analysis 
+
+  [....................]   20/ 100
+  [....................]   40/ 100
+  [....................]   60/ 100
+  [....................]   80/ 100
+  [....................]  100/ 100
+  
+
+. Completed the bootstrap analysis succesfully.
+
+. Printing the most likely tree in file 'scn4a_genes.phy_phyml_tree.txt'.
+
+. Time used 0h15m8s
+
+oooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooo

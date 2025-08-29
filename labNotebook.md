@@ -4,9 +4,28 @@
 
 ### Thu August 28
 
+- Created a conda environment for this assignment and installed MUSCLE (newer vesion, 5.3.linux64 )
+```
+conda create -n ica3
+conda activate ica3
+conda install bioconda::muscle
+```
+
+- MUSCLE output needs to be in phylip format (interleaved or sequential)
+    - Installed seqmagick to help convert output .fa to .phy
+    ```
+    seqmagick convert --output-format phylip --alphabet dna scn4a_genes.afa scn4a_genes.phy
+    ```
+    - Spits out an interleaved phylip file
+
+- Installed and ran phyml (PhyML 3.3.20220408)
+    - [Output log](phyml.out)
+    - [PhyML Manual](https://github.com/stephaneguindon/phyml/blob/master/doc/phyml-manual.pdf)
+
+- Installed figtree on my local machine and used the GUI to view/edit my tree
 
 
-## PS7 
+## Bi621 PS7 aka PS1 
 ### Part 1 (Bi621, blastp - June 2025):
 
 #### Wed July 9  
